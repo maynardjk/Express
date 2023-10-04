@@ -1,5 +1,5 @@
 const fs = require('fs');
-const DATA_FILE = './db/product-bad.json';
+const DATA_FILE = './db/product.json';
 let repo = exports = module.exports = {};
 
 repo.get = function (resolve, reject) {
